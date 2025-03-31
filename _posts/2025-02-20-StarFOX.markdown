@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "On-orbit Experiments for StarFOX on NASA's Straling"
+date:   2025-02-20 00:00:00 -0700
+categories: jekyll update
+---
+
+<div style="">
+  <p>
+    The Starling Formation-flying Optical eXperiment (StarFOX) uses onboard star tracker cameras for autonomous swarm navigation. In the initial round of in-flight experiments, an algorithm uses star tracker images to compute spacecraft orientation and visually detect and track the other three spacecraft in the swarm. The resulting bearing angle measurements enable absolute and relative orbit determination, with data shared via an inter-satellite link. This cooperative approach allows the swarm to autonomously determine its location in a self-contained manner.
+  </p>
+  <p>
+    A second round of in-flight experiments has now started, testing new objectives and algorithms. My primary contribution to the flight software is the autonomous identification of resident space objects (RSOs), such as satellites and debris, in the star tracker images using a space object catalog. We are currently developing algorithms to use the identified RSOs to improve the observer's orbit estimate, and improve the knowledge of the RSO's orbit to achieve on-orbit space-traffic monitoring capability that is persistent and available 24/7.
+  </p>
+  <p>
+    Flight experiments are conducted using NASA's Starling swarm, consisting of four CubeSats in low Earth orbit. We closely collaborate with NASA Ames to coordinate software deliveries, integration, and testing. The video below demonstrates the validation of the RSO identification feature using flight images from the initial experiments. The legend indicates autonomously identified objects and their data sources, including catalog predictions (SGP4), GPS measurements (when available), and visual observations. The video pauses upon identifying an RSO, marking it with a white ellipse. The left-side text displays available RSO data.
+  </p>
+</div>
+
+{% raw %}
+<video controls style="width: 100%; height: auto;">
+  <source src="/assets/starfox_rso_id_test_flight.mp4" type="video/mp4">
+</video>
+{% endraw %}
