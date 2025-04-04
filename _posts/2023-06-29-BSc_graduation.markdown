@@ -15,3 +15,5 @@ categories: jekyll update
   I graduated with a 9.0/10 GPA, ranking among the top 1% (~top 3 students) of my class.
 </p>
 <img src="/assets/tudelft_graduation.jpg" alt="Tu Delft Graduation Photo" style="width: 100%; height: auto;">
+
+<!-- <img src="/assets/honors_award.jpg" alt="Honors Certificate" style="width: 50%; height: auto; display: block; margin: 0 auto;"> -->

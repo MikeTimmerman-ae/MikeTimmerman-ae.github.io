@@ -4,26 +4,48 @@ title:  "Testing of Solid Rocket Engine"
 date:   2022-06-10 00:00:00 -0700
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+<!-- <p>
+  Together with a group of friends from the student rocketry society I was a member of had the goal to launch a rocket to an altitude of 10km. However, since the society had no standard engines available capable of bringing a rocket to that altitude, we set out to design, manufacture and test a more powerful engine. After a long process of manufacturing, testing, failing and iterating, we accomplished a succesful static engine test. The engine is 50lb and delivers an impulse of roughly 15 kN. Below is an image of the engine in the test stand along with the team that worked on the campaign. Following is a close-up video of the engine test (yes it is supposed to be upside down :)). Below the video are some pictures of the manufacturing process.
+</p> -->
 
-`YEAR-MONTH-DAY-title.MARKUP`
+<p>
+Together with a group of friends from the student rocketry society, we set out to develop a rocket capable of reaching an altitude of 10 km. Since the society didn’t have a standard engine powerful enough to achieve this, we took on the challenge of designing, manufacturing, and testing a more capable engine ourselves.
+</p>
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+<p>
+After a long process of fabrication, testing, failures, and iterations, we successfully conducted a static engine test. The engine weighs 50 lbs and delivers an impulse of approximately 15 kNs. Below is an image of the engine mounted on the test stand, along with the team that worked on the campaign. Following that is a close-up video of the engine test (yes, it's meant to be upside down :)). Below the video are some images of the manufacturing process.
+</p>
 
-Jekyll also offers powerful support for code snippets:
+<img src="/assets/dare_group_pic.jpg" alt="DARE Test Group Photo" style="width: 100%; height: auto;">
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+{% raw %}
+<video controls style="width: 100%; height: auto;">
+  <source src="/assets/dare_test.mp4" type="video/mp4">
+</video>
+{% endraw %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<div style="display: flex; align-items: center;">
+  <p>
+    The engine casing was manufactured using hand lay-up which is a process in which layers of reinforced material, in this case fiberglass, are saturated with resin and place on the cilindrical mold. The picture shows us winding up sheets of fiberglass as we soak it with liquid resin.
+  </p>
+  <img src="/assets/srm_1.jpg" alt="Composite Lay-up of Engine Casing" style="width: 50%; height: auto; margin-left: 20px;">
+</div>
+<div style="display: flex; align-items: center;">
+  <img src="/assets/srm_2.jpg" alt="Two finished Engine Casing" style="width: 50%; height: auto; margin-right: 20px;">
+  <p>
+    The engine uses a propellant known as 'rocket candy', which is a propellant composed of sorbitol and potassium nitrate. The name rocket candy is derived from the fact that sorbitol is a sugar and since potassium nitrate is a salt, this is a propellant which is completely safe to eat. In the picture, you can see me stirring the mixture together over a heated stove such that the sugar melts, thereby coating the potassium nitrate. This mixture is then poured into a mold to obtain the final solid propellant grains.
+  </p>
+</div>
+<div style="display: flex; align-items: center;">
+  <p>
+    These are two finished engine casings after tre composite has cured. They are now strong enough to constain the high pressures when firing the engine. The engine stands at a total length of 1.6 m.
+  </p>
+  <img src="/assets/srm_3.jpg" alt="Two finished Engine Casing" style="width: 50%; height: auto; margin-left: 20px;">
+</div>
+<div style="display: flex; align-items: center;">
+  <img src="/assets/srm_4.jpg" alt="Two finished Engine Casing" style="width: 50%; height: auto; margin-right: 20px;">
+  <p>
+    Assemly of the engine takes place at the test campaign. The propellant grains are coated with a flammable mixture to ensure proper ignition of all grains. They are then insreted into the engine casing, after which the end cap is bolted on. The picture shows preparation of the end cap with sealant to ensure no pressure drops occur.
+  </p>
+</div>

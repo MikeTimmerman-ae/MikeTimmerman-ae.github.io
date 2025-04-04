@@ -4,26 +4,13 @@ title:  "ESA: Fly a Rocket"
 date:   2021-10-08 00:00:00 -0700
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+<p>
+  I had the opportunity to be one of 24 participants in the European Space Agency's <a href="https://www.esa.int/Education/Fly_A_Rocket/Fly_a_Rocket!_programme_launches_cycle_03" target="_blank">Fly a Rocket program</a>. The program takes place primarily at the Andøya Space Center in northern Norway, where we carried out a hands-on rocket launch campaign. Our team devised a scientific mission, selecting several research objectives based on the range of available sensors. Each participant was assigned specific tasks to prepare for the launch, including sensor preparation, integration into the rocket, launching weather balloons to assess atmospheric conditions, and running simulations based on the collected data.
+</p>
+  
+<p>
+  This program was an incredible opportunity to connect with ambitious students from universities across Europe. Participating early in my university education was especially valuable, as it showed the importance of surrounding myself with driven individuals, learning from each other, and engaging in experiences beyond the standard curriculum. It motivated me to keep pushing myself, continuously learning, and working hard throughout my degree—so that one day, I can contribute to solving fascinating engineering challenges. Below is a photo at the space center with the rocket we launched.
+</p>
 
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<img src="/assets/esa_fly_rocket.jpg" alt="Group Picture with all Fly a Rocket Participants" style="width: 100%; height: auto;">

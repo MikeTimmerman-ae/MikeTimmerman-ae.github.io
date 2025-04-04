@@ -4,26 +4,13 @@ title:  "Young Talent Encouragement Award"
 date:   2021-11-29 00:00:00 -0700
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+<p>
+After an incredibly rewarding first year of my bachelor's studies, I was honored to receive the Young Talent Encouragement Award (<a href="https://khmw.nl/verslag-prijsuitreikingen-29-november-2021/" target="_blank">Jong Talent Aanmoedigingsprijs</a>) in Aerospace Engineering from the Royal Dutch Society of Sciences (Koninklijke Hollandse Maatschappij der Wetenschappen). This award is granted annually to the two students with the highest GPA in aerospace engineering in the Netherlands after their first year of study.
+</p>
 
-`YEAR-MONTH-DAY-title.MARKUP`
+<p>
+Receiving this recognition was especially meaningful as I had just moved to a new country for university, all while navigating the challenges of the COVID-19 pandemic. It reflects my dedication and eagerness to learn, even in difficult circumstances.
+</p>
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<img src="/assets/khmw_award.jpg" alt="Award Certificate" style="width: 50%; height: auto; display: block; margin: 0 auto;">

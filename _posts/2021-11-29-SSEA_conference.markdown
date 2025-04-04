@@ -4,26 +4,17 @@ title:  "Presenting at Symposium on Space Educational Activities"
 date:   2022-04-27 00:00:00 -0700
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+<p>
+Through ESA's Fly a Rocket program, I had the opportunity to meet an incredible group of international students, many of whom remain close friends to this day. After the program ended, we came together again to submit our findings from the launch campaign to the Symposium on Space Educational Activities. From our group of 24 students, three papers were submitted and accepted for presentation.
+</p>
+<p>
+I personally presented our findings on the sensor experiments we conducted during the launch campaign. Beyond presenting our own work, the symposium was a fantastic opportunity to connect with professionals in the industry and learn about their research.
+</p>
+<p>
+Below is a picture of my friend Theo and me during the presentation, followed by a group photo of 15 Fly a Rocket program participants who attended the symposium.
+</p>
 
-`YEAR-MONTH-DAY-title.MARKUP`
+<img src="/assets/ssea_presentation.jpg" alt="Presenting at SSEA" style="width: 100%; height: auto;">
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<img src="/assets/ssea_group_pic.jpg" alt="Group Photo at SSEA" style="width: 100%; height: auto;">

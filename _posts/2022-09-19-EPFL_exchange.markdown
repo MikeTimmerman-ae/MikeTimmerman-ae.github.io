@@ -4,26 +4,9 @@ title:  "Semester exchange at Ecole Polytechnique Fédérale de Lausanne (EPFL)"
 date:   2022-09-19 00:00:00 -0700
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+<p>
+    During the final year of my bachelor's, I had the opportunity to spend a semester on exchange at EPFL in Switzerland. During this time, I took master’s-level courses in robotics, systems, and control, including Model Predictive Control, Machine Learning, and Multivariable Control. It was an enriching experience to be part of a new academic environment while deepening my knowledge in subjects I am passionate about. Beyond academics, I also had the chance to explore Switzerland, taking in its breathtaking landscapes. Below is a picture from a hike where we reached above the clouds.
+</p>
 
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<img src="/assets/epfl_hike.jpg" alt="View of the Swiss Mountains" style="width: 100%; height: auto;">
