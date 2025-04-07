@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="projects">
+    {%- if page.title -%}
+        <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+
+    {{ content }}
+    
+    <!-- List of projects for each category -->
+    {%- for category in page.list_title -%}
+        <h2 class="category-title" id="{{ category | slugify }}">{{ category }}</h2>
+        <ul class="post-list">
+        {%- for project in site.projects -%}
+            {%- if project.category == category -%}
+                <li>
+                    <div class="project-item">
+                        
+                        <div class="project-description">
+                            <h3>{{ project.title | escape }}</h3>
+                            <p>
+                                {%- if site.show_excerpts -%}
+                                    {{ project.highlight }}
+                                {%- endif -%}
+                            </p>
+                            <div class="project-links">
+                                {%- for link in project.links -%}
+                                  <a href="{{ link.url }}" target="_blank">{{ link.label }}</a>
+                                  {%- unless forloop.last -%}<span> | </span>{% endunless -%}
+                                {%- endfor -%}
+                            </div>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-meta">{{ project.start_date | date: "%b %Y" }} – {{ project.end_date | date: "%b %Y" }}</span>
+                            <br><span class="project-meta-affil" data-category="{{ project.type }}">{{ project.affiliation }}</span>
+                            <ul>
+                                {%- for tool in project.tools -%}
+                                <li>
+                                    {{ tool }}
+                                </li>
+                                {%- endfor -%}
+                            </ul>
+                        </div>
+
+                    </div>
+                </li>
+            {%- endif -%}
+        {%- endfor -%}
+        </ul>
+    {%- endfor -%}
+
+</div>

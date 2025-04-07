@@ -288,3 +288,103 @@
     }
   }
 }
+
+
+/**
+ * Project
+ */
+
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d3d3d3; /* Thin light gray border */
+  border-radius: 8px; /* Slightly rounded edges */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Faint shadow for sleek effect */
+  padding: 0px 0px 0px 20px; /* Top, Right, Bottom, Left */
+  background-color: #ffffff; /* White background for clarity */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+
+  span {
+    text-decoration: none; /* Prevent any unwanted underline on the text */
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    border-bottom: 1px solid #d3d3d3; /* Adjust thickness and color */
+    padding-bottom: 2px; /* Space between text and the line */
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-decoration: none; /* Prevent any unwanted underline on the text */
+    color: #111; /* Ensures the link inherits text color */
+  }
+
+  p {
+    font-size: 0.9rem; /* Adjusts the font size for readability */
+    line-height: 1.6; /* Adjusts line height for better spacing between lines */
+    color: #333; /* Dark gray color for better readability */
+    text-align: left; /* Aligns text to the left, change to 'center' or 'justify' if desired */
+  }
+}
+.project-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Slightly stronger shadow on hover */
+}
+
+.project-description {
+  width: 64%;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    flex-grow: 1;
+    margin-bottom: 5px;
+  }
+}
+
+.project-meta {
+  width: 31%;
+  font-size: $small-font-size;
+  color: $grey-color;
+  border-radius: 8px; /* Slightly rounded edges */
+  background: #d3d3d3;
+  padding: 5px;
+
+  ul {
+    list-style: none;
+    margin: 0px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  li {
+    background-color: #f0f0f0; /* light gray background */
+    color: #333;
+    padding: 0.3rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+  }
+}
+
+.project-meta-affil[data-category="stanford"] {
+  font-size: $small-font-size;
+  color: #B90E0A;
+}
+.project-meta-affil[data-category="delft"] {
+  font-size: $small-font-size;
+  color: #0076C2
+  ;
+}
+.project-meta-affil[data-category="lab"] {
+  font-size: $small-font-size;
+  color: #00665E
+  ;
+}
+
+.project-links {
+  margin-top: auto;
+  padding-bottom: 5px;
+  color: $grey-color;
+}
